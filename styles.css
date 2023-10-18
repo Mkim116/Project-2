@@ -5,30 +5,24 @@ body {
   color: white; /* Set font color to white */
 }
 
-/* Style the navigation buttons */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center; /* Center-align the buttons */
+/* Style the navigation bar */
+.navbar {
+  background-color: #333; /* Navigation bar background color */
+  text-align: center; /* Center-align the navigation bar */
+  padding: 10px 0; /* Add padding to the navigation bar */
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  background-color: #333; /* Button background color */
-  color: white; /* Button text color */
+.nav-button {
+  background-color: transparent;
+  border: none;
   padding: 10px 20px;
-  border: 1px solid white; /* Add a border to the buttons */
-  border-radius: 5px; /* Rounded button corners */
-  transition: background-color 0.3s, font-size 0.3s; /* Smooth button transitions */
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold; /* Make button titles bold */
 }
 
-nav a:hover {
+.nav-button:hover {
   background-color: #444; /* Button background color on hover */
   font-size: 18px; /* Increased font size on hover */
 }

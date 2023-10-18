@@ -32,11 +32,9 @@ body {
 body {
   background-color: antiquewhite;
   color: black;
-  text-align: center;
 }
 
 h1, h2 {
   font-weight: bold;
   text-decoration: underline;
 }
-

@@ -1,15 +1,14 @@
 /* Apply styles to the entire page */
 body {
-  font-family: "Times New Roman", Times, serif; /* Change font to Times New Roman */
-  background-color: blue; /* Set background color to blue */
-  color: white; /* Set font color to white */
+  font-family: "Times New Roman", Times, serif;
+  background-color: bisque; 
+  color: black;
 }
 
-/* Style the navigation bar */
 .navbar {
-  background-color: #333; /* Navigation bar background color */
-  text-align: center; /* Center-align the navigation bar */
-  padding: 10px 0; /* Add padding to the navigation bar */
+  background-color: #333; 
+  text-align: center; 
+  padding: 10px 0; 
 }
 
 .nav-button {
@@ -19,10 +18,10 @@ body {
   margin: 0 10px;
   color: white;
   text-decoration: none;
-  font-weight: bold; /* Make button titles bold */
+  font-weight: bold;
 }
 
 .nav-button:hover {
-  background-color: #444; /* Button background color on hover */
-  font-size: 18px; /* Increased font size on hover */
+  background-color: #444; 
+  font-size: 18px; 
 }

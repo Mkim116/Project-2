@@ -2,8 +2,8 @@
 body {
   font-family: "Times New Roman", Times, serif; /* Change font to Times New Roman */
   background-color: antiquewhite; /* Set background color to antique white */
-  color: white; /* Set font color to white */
-  text-align: left; /* Center-align text within the body */
+  color: black; /* Set font color to black */
+  text-align: left; /* Align all text to the left */
 }
 
 /* Style the navigation bar */
@@ -28,15 +28,7 @@ body {
   font-size: 18px; /* Increased font size on hover */
 }
 
-/* styles.css */
-body {
-  background-color: antiquewhite;
-  color: black;
-  text-align: left;
-}
-
-h1, h2 {
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: left;
+/* Additional CSS for text alignment */
+h1, h2, p, ul, li {
+  text-align: left; /* Align all text to the left */
 }

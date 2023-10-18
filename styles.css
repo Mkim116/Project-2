@@ -32,9 +32,16 @@ body {
 body {
   background-color: antiquewhite;
   color: black;
+  text-align: center;
 }
 
 h1, h2 {
   font-weight: bold;
   text-decoration: underline;
+  text-align: center;
+}
+
+/* Text under titles and headers align to the left */
+p, ul {
+  text-align: left;
 }

@@ -3,7 +3,7 @@ body {
   font-family: "Times New Roman", Times, serif; /* Change font to Times New Roman */
   background-color: antiquewhite; /* Set background color to antique white */
   color: white; /* Set font color to white */
-  text-align: center; /* Center-align text within the body */
+  text-align: left; /* Center-align text within the body */
 }
 
 /* Style the navigation bar */

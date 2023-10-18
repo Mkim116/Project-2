@@ -28,7 +28,16 @@ body {
   font-size: 18px; /* Increased font size on hover */
 }
 
-/* Center-align headers and titles within sections */
-h1, h2 {
+/* styles.css */
+body {
+  background-color: antiquewhite;
+  color: black;
   text-align: center;
 }
+
+h1, h2 {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+

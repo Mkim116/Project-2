@@ -1,34 +1,66 @@
-/* Apply styles to the entire page */
 body {
-  font-family: "Times New Roman", Times, serif; /* Change font to Times New Roman */
-  background-color: antiquewhite; /* Set background color to antique white */
-  color: black; /* Set font color to black */
-  text-align: left; /* Align all text to the left */
+  font-family: "Times New Roman", Times, serif;
+  background-color: antiquewhite;
+  color: black;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 1rem;
 }
 
-/* Style the navigation bar */
 .navbar {
-  background-color: #333; /* Navigation bar background color */
-  text-align: center; /* Center-align the navigation bar */
-  padding: 10px 0; /* Add padding to the navigation bar */
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+  overflow: auto;
 }
 
-.nav-button {
+.nav-button a {
   background-color: transparent;
   border: none;
   padding: 10px 20px;
   margin: 0 10px;
-  color: lightblue; /* Set button text color to light blue */
+  color: lightblue;
   text-decoration: none;
-  font-weight: bold; /* Make button titles bold */
+  font-weight: bold;
+  display: inline-block;
 }
 
-.nav-button:hover {
-  background-color: #444; /* Button background color on hover */
-  font-size: 18px; /* Increased font size on hover */
+.nav-button:hover a {
+  background-color: #444;
+  font-size: 18px;
 }
 
-/* Additional CSS for text alignment */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding-left: 20px;
+}
+
 h1, h2, p, ul, li {
-  text-align: left; /* Align all text to the left */
+  text-align: left;
+}
+
+header {
+  position: relative;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+section {
+  position: relative;
+  margin: 20px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-size: 2rem;
 }
